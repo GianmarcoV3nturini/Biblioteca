@@ -22,6 +22,7 @@ namespace Biblioteca
             Editore = editore;
             NPagine = pagine;
         }
+
         public int NPagine
         {
             get { return _nPagine; }
@@ -32,6 +33,7 @@ namespace Biblioteca
                 _nPagine = value;
             }
         }
+
         public DateTime AnnoPubblicazione
         {
             get { return _annoPubblicazione; }
@@ -70,10 +72,12 @@ namespace Biblioteca
                 _autore = value;
             }
         }
+
         public override string ToString()
         {
             return Autore + Titolo + AnnoPubblicazione + Editore + NPagine;
         }
+
         public int ReadingTime()
         {
             int ore = 0;
