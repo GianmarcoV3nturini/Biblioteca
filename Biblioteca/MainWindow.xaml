@@ -19,6 +19,12 @@
         <TextBox x:Name="txtAnnoPubblicazione" HorizontalAlignment="Left" Margin="400,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="25"/>
         <TextBox x:Name="txtTitolo" HorizontalAlignment="Left" Margin="400,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="25"/>
         <TextBox x:Name="txtAutore" HorizontalAlignment="Left" Margin="400,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="25"/>
+        <Button x:Name="btnAggiungiLibro" Content="AGGIUNGI LIBRO" HorizontalAlignment="Left" Margin="400,174,0,0" VerticalAlignment="Top" Width="146"/>
+        <Button x:Name="btnCercaLibro" Content="CERCA DA TITOLO" HorizontalAlignment="Left" Margin="400,194,0,0" VerticalAlignment="Top" Width="146"/>
+        <TextBox x:Name="txtCercaDaTitolo" HorizontalAlignment="Left" Margin="571,194,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnCercaLibri" Content="CERCA DA AUTORE" HorizontalAlignment="Left" Margin="400,214,0,0" VerticalAlignment="Top" Width="146"/>
+        <TextBox x:Name="txtCercaDaAutore" HorizontalAlignment="Left" Margin="571,214,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnNumeroLibri" Content="NUMERO LIBRI" HorizontalAlignment="Left" Margin="400,234,0,0" VerticalAlignment="Top" Width="146"/>
 
     </Grid>
 </Window>

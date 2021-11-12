@@ -20,9 +20,11 @@ namespace Biblioteca
     /// </summary>
     public partial class MainWindow : Window
     {
+        ClassBiblioteca biblioteca;
         public MainWindow()
         {
             InitializeComponent();
+            biblioteca = new ClassBiblioteca("Biblioteca","via Cavour 100", "10.00", "19:00");
         }
     }
 }
