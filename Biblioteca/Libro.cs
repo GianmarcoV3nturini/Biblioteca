@@ -10,11 +10,11 @@ namespace Biblioteca
     {
         private string _autore;
         private string _titolo;
-        private DateTime _annoPubblicazione;
+        private string _annoPubblicazione;
         private string _editore;
         private int _nPagine;
 
-        public Libro(string autore,string titolo,DateTime anno,string editore,int pagine)
+        public Libro(string autore,string titolo,string anno,string editore,int pagine)
         {
             Autore = autore;
             Titolo = titolo;
@@ -34,11 +34,13 @@ namespace Biblioteca
             }
         }
 
-        public DateTime AnnoPubblicazione
+        public string AnnoPubblicazione
         {
             get { return _annoPubblicazione; }
             set
-            {             
+            {
+                if (string.IsNullOrEmpty(value))
+                    throw new Exception("dato non valido");
                 _annoPubblicazione = value;
             }
         }
