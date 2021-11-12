@@ -7,6 +7,18 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Height="18"><Run Language="it-it" Text="BIBLIOTECA"/></TextBlock>
+        <TextBox x:Name="txtNome" HorizontalAlignment="Left" Margin="10,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="25"/>
+        <TextBox x:Name="txtChiusura" HorizontalAlignment="Left" Margin="10,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="25"/>
+        <TextBox x:Name="txtApertura" HorizontalAlignment="Left" Margin="10,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="25"/>
+        <TextBox x:Name="txtIndirizzo" HorizontalAlignment="Left" Margin="10,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="25"/>
+        <ListBox x:Name="lstLibri" Margin="10,149,469,24"/>
+        <TextBlock HorizontalAlignment="Left" Margin="400,6,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="126" Height="18"><Run Language="it-it" Text="LIBRO"/></TextBlock>
+        <TextBox x:Name="txtNPagine" HorizontalAlignment="Left" Margin="400,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="25"/>
+        <TextBox x:Name="txtEditore" HorizontalAlignment="Left" Margin="400,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="25"/>
+        <TextBox x:Name="txtAnnoPubblicazione" HorizontalAlignment="Left" Margin="400,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="25"/>
+        <TextBox x:Name="txtTitolo" HorizontalAlignment="Left" Margin="400,69,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="25"/>
+        <TextBox x:Name="txtAutore" HorizontalAlignment="Left" Margin="400,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="146" Height="25"/>
 
     </Grid>
 </Window>
