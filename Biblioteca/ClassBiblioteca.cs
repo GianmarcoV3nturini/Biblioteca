@@ -16,11 +16,19 @@ namespace Biblioteca
 
         public ClassBiblioteca(string nome, string indirizzo,string apertura,string chiusura)
         {
-            _libri = new List<Libro>();
+            Libri = null;
             Nome = nome;
             Indirizzo = indirizzo;
             OrarioApertura = apertura;
             OrarioChiusura = chiusura;
+        }
+        public List<Libro> Libri
+        {
+            get { return _libri; }
+            set
+            {
+                _libri = new List<Libro>();
+            }
         }
         public string OrarioChiusura
         {
